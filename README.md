@@ -13,7 +13,7 @@ Our implementation is built on the:
 
 ## Dataset
 We adopt the same five datasets with [keyphrase-generation-rl](https://github.com/kenchan0226/keyphrase-generation-rl), which can be downloaded from their [repository](https://github.com/kenchan0226/keyphrase-generation-rl#dataset).  
-We are high acknowledgments to Mr. Wang Chen, Hou Pong Chan for their help on data preprocessing (sort present keyphrases & remove duplicated docs.
+We are high acknowledgments to Mr. Wang Chen and Hou Pong Chan for their help on data preprocessing (sort present keyphrases & remove duplicated docs).
 
 ## Preprocessing
 Command: `python3 preprocess.py -data_dir data/kp20k_sorted -remove_eos`
