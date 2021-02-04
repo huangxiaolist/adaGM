@@ -1,5 +1,5 @@
 # Keyphrase Generation via Reinforcement Learning
-This repository contains the code for AAAI-21 paper "[Adaptive Beam Search Decoding for Discrete Keyphrase Generation](javascript:#)".
+This repository contains the code for AAAI-21 paper "[Adaptive Beam Search Decoding for Discrete Keyphrase Generation](#)".
 
 Our implementation is built on the:
 - [seq2seq-keyphrase-pytorch](https://github.com/memray/seq2seq-keyphrase-pytorch).
@@ -28,5 +28,6 @@ Command: `python3 interactive_predict.py -vocab data/kp20k_sorted/ -src_file [sr
 Command: `python3 evaluate_prediction.py -pred_file_path [path_to_predictions.txt] -src_file_path [path_to_test_set_src_file] -trg_file_path [path_to_test_set_trg_file] -exp kp20k -export_filtered_pred -disable_extra_one_word_filter -invalidate_unk -all_ks 5 M -present_ks 5 M -absent_ks 5 M`
 
 ## Baselines predictions
-We train the five keyphrase generation models (CopyRNN  CorrRNN  TG-Net catSeq catSeqD ) and save the best [ckpt](https://drive.google.com/file/d/1kEL53UDzYkNkWg4DGIIchVwmNiHTAJZr/view?usp=sharing) and [predictions](https://drive.google.com/file/d/1EZ0WfPyFtFsr56FgrYugmTdTJdYgd0zm/view?usp=sharing), separately. We also collect two models predictions, which are given by the author: ExHiRD & Kp-RL.
+We train the five keyphrase generation models ([CopyRNN](https://www.aclweb.org/anthology/P17-1054.pdf), [CorrRNN](https://www.aclweb.org/anthology/D18-1439.pdf), [TG-Net](https://ojs.aaai.org//index.php/AAAI/article/view/4587), [catSeq](https://www.microsoft.com/en-us/research/publication/generating-diverse-numbers-of-diverse-keyphrases/), [catSeqD](https://www.microsoft.com/en-us/research/publication/generating-diverse-numbers-of-diverse-keyphrases/))) and save the best [ckpt](https://drive.google.com/file/d/1kEL53UDzYkNkWg4DGIIchVwmNiHTAJZr/view?usp=sharing) and [predictions](https://drive.google.com/file/d/1EZ0WfPyFtFsr56FgrYugmTdTJdYgd0zm/view?usp=sharing), separately.
+We also collect two models' predictions, which are given by the authors: [ExHiRD](https://www.aclweb.org/anthology/2020.acl-main.103.pdf) & [Kp-RL](https://www.aclweb.org/anthology/P19-1208.pdf).
 They can download by [here](https://drive.google.com/file/d/1EZ0WfPyFtFsr56FgrYugmTdTJdYgd0zm/view?usp=sharing)
