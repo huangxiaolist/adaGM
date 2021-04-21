@@ -1,3 +1,5 @@
+#Note: We will upload the code within this week.
+----
 # Keyphrase Generation via Reinforcement Learning
 This repository contains the code for AAAI-21 paper "[Adaptive Beam Search Decoding for Discrete Keyphrase Generation](#)".
 
@@ -33,5 +35,8 @@ We also collect two models' predictions, which are given by the authors: [ExHiRD
 They can be downloaded from [here](https://drive.google.com/file/d/1EZ0WfPyFtFsr56FgrYugmTdTJdYgd0zm/view?usp=sharing).
 
 ## More Details
-### Reset State Mechanism
+### Reset State Mechanism Part
+The code:
 ### Filter Mechanims
+The code:
+
