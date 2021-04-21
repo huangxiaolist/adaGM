@@ -1,4 +1,4 @@
-#Note: We will upload the code within this week.
+# Note: We will upload the code within this week.
 ----
 # Keyphrase Generation via Reinforcement Learning
 This repository contains the code for AAAI-21 paper "[Adaptive Beam Search Decoding for Discrete Keyphrase Generation](#)".
