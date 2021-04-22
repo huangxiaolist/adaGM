@@ -1,0 +1,1 @@
+python3 preprocess.py -data_dir data/kp20k_sorted/ -remove_eos
