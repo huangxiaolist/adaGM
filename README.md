@@ -29,11 +29,11 @@ utils
 ```
 1️⃣ download the dataset and execute `preprocess.sh` to get the vocab, training, validation and test datasets.
 
-2️⃣ execute `train.sh` to train the model and select a better model through the validation dataset.
+2️⃣ execute `train.sh` to train the model and select a better model through the validation dataset. All model checkpoints are saved in `ckpt/` directory.
 
-3️⃣ execute `pred.sh` to predict the keyphrases of all test datasets.
+3️⃣ execute `pred.sh` to predict the keyphrases of all test datasets. All predictions are saved in `pred/` directory.
 
-4️⃣ execute `eval.sh` to evaluate the prediction results (Dupration, mae, f1@5, f1@m). 
+4️⃣ execute `eval.sh` to evaluate the prediction results (Dupration, mae, f1@5, f1@m). All results are saved in `exp/` directory.
 ## Dataset
 We adopt the same five datasets with [keyphrase-generation-rl](https://github.com/kenchan0226/keyphrase-generation-rl), which can be downloaded from their [repository](https://github.com/kenchan0226/keyphrase-generation-rl#dataset).  
 We are high acknowledgments to Mr. Wang Chen and Hou Pong Chan for their help on data preprocessing (sort present keyphrases & remove duplicated docs).
