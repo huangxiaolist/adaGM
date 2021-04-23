@@ -1,4 +1,4 @@
-This repository contains the code for AAAI-21 paper "[Adaptive Beam Search Decoding for Discrete Keyphrase Generation](#)".
+This repository contains the code for AAAI-21 paper "[Adaptive Beam Search Decoding for Discrete Keyphrase Generation](#)" and supplementary materials.pdf
 
 Our implementation is built on the:
 - [seq2seq-keyphrase-pytorch](https://github.com/memray/seq2seq-keyphrase-pytorch).
