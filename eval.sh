@@ -1,0 +1,1 @@
+python3 evaluate.py -pred_file_path [prediction_path/predictions.txt] -src_file_path [src_path]  -trg_file_path [src_trg_path] -exp kp20k -export_filtered_pred -disable_extra_one_word_filter -invalidate_unk  -all_ks  5 10 M  -present_ks 5 10 M  -absent_ks 5 10 M
