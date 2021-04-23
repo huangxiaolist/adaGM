@@ -9,6 +9,9 @@ Our implementation is built on the:
 ## Dependencies
 * python 3.5+
 * pytorch 1.6.0
+* numpy 1.19.2
+* json  2.0.9
+## Summary
 
 ## Dataset
 We adopt the same five datasets with [keyphrase-generation-rl](https://github.com/kenchan0226/keyphrase-generation-rl), which can be downloaded from their [repository](https://github.com/kenchan0226/keyphrase-generation-rl#dataset).  
