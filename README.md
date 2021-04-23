@@ -12,7 +12,25 @@ Our implementation is built on the:
 * numpy 1.19.2
 * json  2.0.9
 ## Summary
-
+If you want to train AdaGM, you need the following steps (provided that your data is organized as 
+```
+data
+  --kp20k_sorted
+    --train_*.txt
+    --valid_*.txt
+    --test_*.txt
+  --cross_domain_sorted
+    --word_*_testing_allkeywords.txt
+    --word_*_testing_context.txt
+pykp
+utils
+*.py
+*.sh
+```
+1. download the dataset and execute `preprocess.sh` to get the vocab, training, validation and test datasets.
+2. execute `train.sh` to train the model and select a better model through the validation dataset.
+3. execute `pred.sh` to predict the keyphrases of all test datasets.
+4. execute `eval.sh` to evaluate the prediction results (Dupration, mae, f1@5, f1@m). 
 ## Dataset
 We adopt the same five datasets with [keyphrase-generation-rl](https://github.com/kenchan0226/keyphrase-generation-rl), which can be downloaded from their [repository](https://github.com/kenchan0226/keyphrase-generation-rl#dataset).  
 We are high acknowledgments to Mr. Wang Chen and Hou Pong Chan for their help on data preprocessing (sort present keyphrases & remove duplicated docs).
