@@ -54,7 +54,7 @@ They can be downloaded from [here](https://drive.google.com/file/d/1EZ0WfPyFtFsr
 
 ## More Details
 ### Reset State Mechanism Part
-The code:
+The code is in model.py [line: 137-146]
 ### Filter Mechanims
-The code:
+The code is in sequence_generator.py [line: 218-234]
 
