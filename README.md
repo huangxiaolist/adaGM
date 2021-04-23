@@ -28,8 +28,11 @@ utils
 *.sh
 ```
 1️⃣ download the dataset and execute `preprocess.sh` to get the vocab, training, validation and test datasets.
+
 2️⃣ execute `train.sh` to train the model and select a better model through the validation dataset.
+
 3️⃣ execute `pred.sh` to predict the keyphrases of all test datasets.
+
 4️⃣ execute `eval.sh` to evaluate the prediction results (Dupration, mae, f1@5, f1@m). 
 ## Dataset
 We adopt the same five datasets with [keyphrase-generation-rl](https://github.com/kenchan0226/keyphrase-generation-rl), which can be downloaded from their [repository](https://github.com/kenchan0226/keyphrase-generation-rl#dataset).  
@@ -58,3 +61,6 @@ The code is in model.py [line: 137-146]
 ### Filter Mechanims
 The code is in sequence_generator.py [line: 218-234]
 
+### ❗
+#### Please concat us, if you encounter any problems.
+`hxlist@163.com`  or  `huangxiaolist@163.com`
