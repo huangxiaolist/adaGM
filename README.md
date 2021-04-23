@@ -1,6 +1,3 @@
-# We will upload the code within this week.
-----
-# 
 This repository contains the code for AAAI-21 paper "[Adaptive Beam Search Decoding for Discrete Keyphrase Generation](#)".
 
 Our implementation is built on the:
